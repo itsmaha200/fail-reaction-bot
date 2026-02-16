@@ -187,8 +187,8 @@ def reaction_status(phone):
 if __name__ == "__main__":
     os.makedirs("sessions", exist_ok=True)
 
-    port = int(os.environ.get("PORT", 5000))
+   # port = int(os.environ.get("PORT", 5000))
 
-    print("🔥 SERVER STARTED")
+  #  print("🔥 SERVER STARTED")
 
-    app.run(host="0.0.0.0", port=port)
+    ## app.run(host="0.0.0.0", port=port)
